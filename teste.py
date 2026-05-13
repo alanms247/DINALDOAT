@@ -9,8 +9,8 @@ def get_base64_image(path):
     with open(path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 
-img_base64 = get_base64_image("images.jpg")
-zap_base64 = get_base64_image("images (1).jpg")
+img_base64 = get_base64_image("images (3).jpg")
+zap_base64 = get_base64_image("images (2).jpg")
 
 # TOPO (imagem clicável)
 col1, col2, col3 = st.columns([1,2,1])
@@ -69,7 +69,7 @@ with col_left:
         """, unsafe_allow_html=True)
 
     st.markdown("<div style='margin-top:30px;'>", unsafe_allow_html=True)
-    st.link_button("Acessar", "http://lattes.cnpq.br/4494611683890258")
+    st.link_button("Acessar", "https://sites.google.com/academico.ifpb.edu.br/alan?usp=sharing")
     st.markdown("</div>", unsafe_allow_html=True)
 
 with col_right:
