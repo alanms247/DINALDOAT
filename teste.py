@@ -18,7 +18,7 @@ col1, col2, col3 = st.columns([1,2,1])
 with col2:
     st.markdown(f"""
         <div style="text-align: center; margin-bottom: 50px;">
-            <a href="https://starlink.com/" target="_blank">
+            <a href="https://www.google.com/" target="_blank">
                 <img src="data:image/png;base64,{img_base64}" 
                      width="320" 
                      style="border-radius:12px;">
@@ -49,7 +49,7 @@ with col_left:
         ">
         """, unsafe_allow_html=True)
 
-        st.image("dino2026.png", width=800)
+        st.image("images.jpg", width=800)
 
         st.markdown("</div>", unsafe_allow_html=True)
 
