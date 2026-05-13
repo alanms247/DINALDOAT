@@ -64,7 +64,7 @@ with col_left:
             max-width: none;
         ">
             <b>Sobre Alan:<br>
-            Alan Miguel, 99 anos, é um profissional experiente na área de TI, busca posições nas empresas da área.
+            Alan Miguel, 999 anos, é um profissional experiente na área de TI, busca posições nas empresas da área, CEO da GOOGLE.
         </div>
         """, unsafe_allow_html=True)
 
